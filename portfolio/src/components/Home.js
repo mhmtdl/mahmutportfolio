@@ -3,6 +3,9 @@ import {FaFacebookF,FaTwitter,FaInstagram,FaLinkedin,FaGithub,FaPlay} from 'reac
 import {FiMail} from 'react-icons/fi';
 
 const Home = () => {
+    const [state] = React.useState({title:'I am Mahmut Sarcan',
+    text:'Full Stack Developer',
+    image:'/images/DSC_0068new (6).jpg'})
     return (
         <div className='header'>
             <div className='container'>
@@ -31,8 +34,8 @@ const Home = () => {
                             </li>
                             
                         </ul>
-                        <h1>I am Mahmut Sarcan</h1>
-                        <p>Full Stack Developer</p>
+                        <h1>{state.title}</h1>
+                        <p>{state.text}</p>
                         <div className='header__buttons'>
                         <a href='/' className='btn btn-outline'>Download Resume</a>
                         &nbsp;&nbsp;&nbsp;
@@ -44,7 +47,7 @@ const Home = () => {
                     </div>
                     <div className='col-6'>
                     <div className='banner__img'>
-                        <img src='/images/DSC_0068new (6).jpg' alt='mahmut'/>
+                        <img src={state.image} alt='mahmut'/>
                     </div>
 
                     </div>
