@@ -167,12 +167,19 @@ body {
 }
 
 .banner__img {
-  padding: 0 100px;
+  padding: 0 50px;
   margin-top:200px;
-  
+ 
   
   
 }
+
+/* .banner__img img {
+  width: 300px;
+  height: 400px;
+ 
+} */
+
 
 .about {
   width: 100%;
@@ -204,6 +211,116 @@ body {
   margin:20px auto;
   text-align: center;
 }
+
+
+
+.about__img {
+  padding: 30px;
+}
+
+.about__img img {
+  width:325px;
+  height: 450px;
+}
+
+.h-650 {
+  height:650px;
+}
+
+.alignCenter {
+  align-items: center;
+}
+
+.about__info h1 {
+   margin-bottom: 30px;
+
+}
+
+.about__info-p1 {
+  font-size: 14px;
+  margin-bottom:20px;
+
+}
+
+.about__info-p2 {
+   font-size: 14px;
+
+}
+
+
+.info__contacts {
+  margin-top: 20px;
+}
+
+.info__contacts strong {
+  color:#ff4a57;
+}
+
+.info__contacts p {
+  margin-top: 3px;
+}
+
+.info__contacts .col-6 {
+   margin: 10px 0;
+}
+
+
+
+ .skills{
+ display: flex;
+ list-style: none;
+ justify-content: space-between;
+ align-items: center;
+ font-size: 70px;
+ 
+
+
+ 
+
+
+ 
+}
+
+.skills li {
+ 
+ 
+  font-weight: 500;
+  font-size:76px ;
+  padding: 0 30px;
+}
+
+.mahmut {
+  filter:grayscale(100%);
+}
+.mahmut:hover {
+  filter:none;
+}
+
+
+.html:hover {
+  color:#e34c26;
+}
+
+.css:hover {
+  color:#264de4;
+}
+
+.java:hover {
+  color: #f0db4f;
+}
+
+.node:hover {
+  color:#3c873a;
+}
+
+.react:hover {
+  color:#61DBFB;
+}
+
+.mongo:hover {
+  color:#4DB33D;
+}
+
 
 
 
