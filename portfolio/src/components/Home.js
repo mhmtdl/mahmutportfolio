@@ -5,7 +5,7 @@ import {FiMail} from 'react-icons/fi';
 const Home = () => {
     const [state] = React.useState({title:'I am Mahmut Sarcan',
     text:'Full Stack Developer',
-    image:'/images/DSC_0068new (6).jpg'})
+    image:'/images/maho (2).jpg'})
     return (
         <div className='header'>
             <div className='container'>
@@ -47,7 +47,7 @@ const Home = () => {
                     </div>
                     <div className='col-6'>
                     <div className='banner__img'>
-                        <img src={state.image} alt='mahmut'/>
+                        <img className='mahmut' src={state.image} alt='mahmut'/>
                     </div>
 
                     </div>
