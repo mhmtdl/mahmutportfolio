@@ -2,6 +2,7 @@ import React from 'react'
 import {FaFacebookF,FaTwitter,FaInstagram,FaLinkedin,FaGithub,FaPlay} from 'react-icons/fa'
 import {FiMail} from 'react-icons/fi';
 
+
 const Home = () => {
     const [state] = React.useState({title:'I am Mahmut Sarcan',
     text:'Full Stack Developer',
@@ -15,31 +16,43 @@ const Home = () => {
                     <div className='header__section'>
                     <ul className='header__ul'>
                             <li>
-                                <FaFacebookF/>
+                            <a href='https://www.linkedin.com/in/mahmutsarcan/'
+                            target='_blank' rel='noreferrer' className='linkedin'><FaLinkedin/></a>
+                               
                             </li>
                             <li>
-                                <FaTwitter/>
+                          
+                            <a href='https://github.com/mhmtdl' 
+                            target='_blank' rel='noreferrer' className='github' > <FaGithub/></a>
+                               
                             </li>
                             <li>
-                                <FaInstagram/>
+                            
+                            <a href='mailto:mhmtsrcn58@hotmail.com' 
+                             className='mail'><FiMail/></a>
                             </li>
                             <li>
-                                <FaLinkedin/>
+                            <a href='https://www.facebook.com/mahmut.sarcan.9' 
+                            target='_blank' rel='noreferrer' className='facebook'><FaFacebookF/></a>
+                            
                             </li>
                             <li>
-                                <FaGithub/>
+                            <a href='https://twitter.com/mhmt_srcn' target='_blank' rel='noreferrer'> <FaTwitter/></a>
+                               
                             </li>
                             <li>
-                                <FiMail/>
+                           <a href='https://www.instagram.com/mhmtsrcn58/' className='instagram' target='_blank' rel='noreferrer'><FaInstagram/></a>
+                           
+                                
                             </li>
                             
                         </ul>
                         <h1>{state.title}</h1>
                         <p>{state.text}</p>
                         <div className='header__buttons'>
-                        <a href='/' className='btn btn-outline'>Download Resume</a>
+                        <a href='/images/mahmut sarcan ironhackcv.pdf' download  className='btn btn-outline'>Download Resume</a>
                         &nbsp;&nbsp;&nbsp;
-                        <a href='/' className='btn btn-smart'> <FaPlay className='play'/> </a>
+                        <a href='https://www.youtube.com/watch?v=ksC0XnJCZ14&feature=youtu.be' className='btn btn-smart' target='_blank' rel='noreferrer'> <FaPlay className='play'/> </a>
                         </div>
                     </div>
                        
