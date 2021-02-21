@@ -362,6 +362,7 @@ body {
 
 
 
+
 @media(max-width:768px) {
   .container {
     width:100%;
@@ -392,19 +393,28 @@ body {
     margin-bottom:50px;
   
   }
-  .header__ul{
+
+  .header__ul  {
     display:grid;
-    grid-template-columns:auto auto auto; 
+    grid-template-columns: auto auto auto auto; 
     grid-gap: 20px; 
     margin-right:12px;
     row-gap: 25px;
    
-    
-    
+    /* display:grid;
+    grid-template-columns: auto auto auto; 
+    grid-gap: 30px; 
+    margin-right:70px;
+    row-gap: 25px;
+     */
     
    
     
   }
+  
+  
+
+  
 
  
   
@@ -455,3 +465,4 @@ body {
 
 
 }
+

@@ -54,7 +54,7 @@ I have a background in engineering & pharmaceuticals sales, I developed strong s
               <div className='info__contacts'>
                   <div className='row'>
                       {state.map(info=>(
-                        <div className='col-6'>
+                        <div key={info.id} className='col-6'>
                        <strong>{info.title}</strong>
                        <p>{info.text}</p>
 
