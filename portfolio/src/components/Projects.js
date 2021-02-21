@@ -14,7 +14,7 @@ const Projects = () => {
             <div className='slides'>
             <Carousel>
   <Carousel.Item>
-  <a href='https://github.com/mhmtdl/Ironhack-Project-1-Quiz-Game' target='_blank' rel='noreferrer'><img
+  <a href='https://github.com/mhmtdl/Ironhack-Project-1-Quiz-Game' target='_blank' rel=' noopener noreferrer'><img
       className="d-block w-100"
       src='/images/quizgame(4).PNG'
       alt="First slide"
@@ -25,7 +25,7 @@ const Projects = () => {
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
-  <a href='https://github.com/mhmtdl/Tunelmusicapp' target='_blank' rel='noreferrer'><img
+  <a href='https://github.com/mhmtdl/Tunelmusicapp' target='_blank' rel=' noopener noreferrer'><img
       className="d-block w-100"
       src="/images/tunelproject.jpg"
       alt="Third slide"
@@ -37,7 +37,7 @@ const Projects = () => {
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
-  <a href='https://github.com/mhmtdl/musica' target='_blank' rel='noreferrer'><img
+  <a href='https://github.com/mhmtdl/musica' target='_blank' rel='noopener noreferrer'><img
       className="d-block w-100"
       src="/images/musica(3).PNG"
       alt="Third slide"

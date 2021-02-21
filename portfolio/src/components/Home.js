@@ -17,13 +17,13 @@ const Home = () => {
                     <ul className='header__ul'>
                             <li>
                             <a href='https://www.linkedin.com/in/mahmutsarcan/'
-                            target='_blank' rel='noreferrer' className='linkedin'><FaLinkedin/></a>
+                            target='_blank' rel='noopener noreferrer' className='linkedin'><FaLinkedin/></a>
                                
                             </li>
                             <li>
                           
                             <a href='https://github.com/mhmtdl' 
-                            target='_blank' rel='noreferrer' className='github' > <FaGithub/></a>
+                            target='_blank' rel='noopener noreferrer' className='github' > <FaGithub/></a>
                                
                             </li>
                             <li>
@@ -33,15 +33,15 @@ const Home = () => {
                             </li>
                             <li>
                             <a href='https://www.facebook.com/mahmut.sarcan.9' 
-                            target='_blank' rel='noreferrer' className='facebook'><FaFacebookF/></a>
+                            target='_blank' rel='noopener noreferrer' className='facebook'><FaFacebookF/></a>
                             
                             </li>
                             <li>
-                            <a href='https://twitter.com/mhmt_srcn' target='_blank' rel='noreferrer'> <FaTwitter/></a>
+                            <a href='https://twitter.com/mhmt_srcn' target='_blank' rel='noopener noreferrer'> <FaTwitter/></a>
                                
                             </li>
                             <li>
-                           <a href='https://www.instagram.com/mhmtsrcn58/' className='instagram' target='_blank' rel='noreferrer'><FaInstagram/></a>
+                           <a href='https://www.instagram.com/mhmtsrcn58/' className='instagram' target='_blank' rel='noopener noreferrer'><FaInstagram/></a>
                            
                                 
                             </li>
@@ -52,7 +52,7 @@ const Home = () => {
                         <div className='header__buttons'>
                         <a href='/images/mahmut sarcan ironhackcv.pdf' download  className='btn btn-outline'>Download Resume</a>
                         &nbsp;&nbsp;&nbsp;
-                        <a href='https://www.youtube.com/watch?v=ksC0XnJCZ14&feature=youtu.be' className='btn btn-smart' target='_blank' rel='noreferrer'> <FaPlay className='play'/> </a>
+                        <a href='https://www.youtube.com/watch?v=ksC0XnJCZ14&feature=youtu.be' className='btn btn-smart' target='_blank' rel='noopener noreferrer'> <FaPlay className='play'/> </a>
                         </div>
                     </div>
                        
