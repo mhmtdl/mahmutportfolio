@@ -20,6 +20,7 @@
 
 
   "private": true,
+   "homepage": "https://mhmtdl.github.io/mahmutportfolio/",
   
 
 
@@ -204,6 +205,8 @@
 
 
   "start": "react-scripts start",
+  "predeploy": "npm run build",
+  "deploy":"gh-pages -d build",
   
 
 
