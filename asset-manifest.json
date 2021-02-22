@@ -1,7 +1,7 @@
 {
-  "main.css": "/mahmutportfolio/static/css/main.d759645b.chunk.css",
-  "main.js": "/mahmutportfolio/static/js/main.36d4dd13.chunk.js",
-  "main.js.map": "/mahmutportfolio/static/js/main.36d4dd13.chunk.js.map",
+  "main.css": "/mahmutportfolio/static/css/main.855a520d.chunk.css",
+  "main.js": "/mahmutportfolio/static/js/main.1301ded0.chunk.js",
+  "main.js.map": "/mahmutportfolio/static/js/main.1301ded0.chunk.js.map",
   "static/js/1.0afab242.chunk.js": "/mahmutportfolio/static/js/1.0afab242.chunk.js",
   "static/js/1.0afab242.chunk.js.map": "/mahmutportfolio/static/js/1.0afab242.chunk.js.map",
   "static/css/2.862a24a2.chunk.css": "/mahmutportfolio/static/css/2.862a24a2.chunk.css",
@@ -10,8 +10,8 @@
   "runtime~main.js": "/mahmutportfolio/static/js/runtime~main.302ec584.js",
   "runtime~main.js.map": "/mahmutportfolio/static/js/runtime~main.302ec584.js.map",
   "static/css/2.862a24a2.chunk.css.map": "/mahmutportfolio/static/css/2.862a24a2.chunk.css.map",
-  "static/css/main.d759645b.chunk.css.map": "/mahmutportfolio/static/css/main.d759645b.chunk.css.map",
+  "static/css/main.855a520d.chunk.css.map": "/mahmutportfolio/static/css/main.855a520d.chunk.css.map",
   "index.html": "/mahmutportfolio/index.html",
-  "precache-manifest.dd5e0c62dc3d088fcd8381733d5ad90d.js": "/mahmutportfolio/precache-manifest.dd5e0c62dc3d088fcd8381733d5ad90d.js",
+  "precache-manifest.b9e6bf0338e57b8d0b5c31c8782466c7.js": "/mahmutportfolio/precache-manifest.b9e6bf0338e57b8d0b5c31c8782466c7.js",
   "service-worker.js": "/mahmutportfolio/service-worker.js"
 }

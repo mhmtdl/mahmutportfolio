@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "36d4dd1325ae21dc7edf",
-    "url": "/mahmutportfolio/static/css/main.d759645b.chunk.css"
+    "revision": "1301ded00479e465789c",
+    "url": "/mahmutportfolio/static/css/main.855a520d.chunk.css"
   },
   {
-    "revision": "36d4dd1325ae21dc7edf",
-    "url": "/mahmutportfolio/static/js/main.36d4dd13.chunk.js"
+    "revision": "1301ded00479e465789c",
+    "url": "/mahmutportfolio/static/js/main.1301ded0.chunk.js"
   },
   {
     "revision": "0afab242b9f5892ab49a",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/mahmutportfolio/static/js/runtime~main.302ec584.js"
   },
   {
-    "revision": "9558a91f9d05770fd410335f14995b82",
+    "revision": "7dc61a857af51d7f318b0a40a17d2f1f",
     "url": "/mahmutportfolio/index.html"
   }
 ];
