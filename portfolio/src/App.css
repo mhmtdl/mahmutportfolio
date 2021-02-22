@@ -409,11 +409,27 @@ body {
      */
     
    
+  .about-text p {
+  
+    font-size: 14px;
+    padding-top:40px;
+    margin-left:5px;
+  }
   
   
+ * {
+   margin:-2px;
+   
   
+ }
 
-  
+ .slides {
+   margin-left:5px;
+ }
+
+ .info__contacts {
+   margin-left: 5px;;
+ }
 
  
   
@@ -465,3 +481,12 @@ body {
 
 }
 
+@media (max-width:414px) {
+  .header__ul  {
+    display:grid;
+    grid-template-columns: 15% 15% 15%; 
+    grid-gap: 25px; 
+    margin-right:70px;
+    row-gap: 25px;
+  }
+}
