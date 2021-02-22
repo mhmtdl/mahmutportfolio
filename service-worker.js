@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/mahmutportfolio/portfolio/precache-manifest.fa87330fb8f9e9f2c12ed5af2eedd4b9.js"
+  "/mahmutportfolio/precache-manifest.d0d8b3b0958429c520be1bc886ddb1e6.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/mahmutportfolio/portfolio/index.html", {
+workbox.routing.registerNavigationRoute("/mahmutportfolio/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
