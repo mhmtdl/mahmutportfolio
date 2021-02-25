@@ -431,6 +431,10 @@ body {
    margin-left: 5px;;
  }
 
+ .btn-smart {
+   margin-bottom:20px;
+ }
+
  
   
   .header {
@@ -481,12 +485,21 @@ body {
 
 }
 
-@media (max-width:414px) {
+/* @media (min-width:400px) {
   .header__ul  {
     display:grid;
     grid-template-columns: 15% 15% 15%; 
     grid-gap: 25px; 
     margin-right:70px;
     row-gap: 25px;
+  }
+} */
+
+@media (max-width:400px) {
+  .header__ul li {
+    width:40px;
+    height: 40px;
+    
+   
   }
 }
