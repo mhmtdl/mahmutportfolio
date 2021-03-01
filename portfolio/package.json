@@ -5,227 +5,40 @@
 
 
 
-  "name": "portfolio",
+
+
+"name": "portfolio",
   
 
 
 
 
 
-  "version": "0.1.0",
+
+
+"version": "0.1.0",
   
 
 
 
 
 
-  "private": true,
-   
+
+
+"private": true,
+
+  
+
+
+
+
+
+
+
+"dependencies": {
   
 
 
-
-
-
-  
-  
-
-
-
-
-
-  "dependencies": {
-  
-
-
-
-
-
-    
-
-
-
-
-
-  "@testing-library/jest-dom": "^5.11.9",
-  
-
-
-
-
-
-    
-
-
-
-
-
-  "@testing-library/react": "^11.2.3",
-  
-
-
-
-
-
-    
-
-
-
-
-
-  "@testing-library/user-event": "^12.6.2",
-  
-
-
-
-
-
-    
-
-
-
-
-
-  "bootstrap": "^4.6.0",
-  
-
-
-
-
-
-    
-
-
-
-
-
-  "react": "^17.0.1",
-  
-
-
-
-
-
-    
-
-
-
-
-
-  "react-bootstrap": "^1.5.0",
-  
-
-
-
-
-
-    
-
-
-
-
-
-  "react-dom": "^17.0.1",
-  
-
-
-
-
-
-    
-
-
-
-
-
-  "react-icons": "^4.1.0",
-  
-
-
-
-
-
-    
-
-
-
-
-
-  "react-router-dom": "^5.2.0",
-  
-
-
-
-
-
-    
-
-
-
-
-
-  "react-scripts": "^2.0.5",
-  
-
-
-
-
-
-    
-
-
-
-
-
-  "web-vitals": "^0.2.4"
-  
-
-
-
-
-
-  },
-  
-
-
-
-
-
-  "scripts": {
-  
-
-
-
-
-
-    
-
-
-
-
-
-  "start": "react-scripts start",
- 
-  
-
-
-
-
-
-    
-
-
-
-
-
-  
-  
-
-
-
-
-
-    
 
 
 
@@ -237,329 +50,646 @@
 
 
 
-    
 
 
-
-
-
-  "build": "react-scripts build",
+"@testing-library/jest-dom": "^5.11.9",
   
 
 
 
 
 
-    
 
 
-
-
-
-  "test": "react-scripts test",
   
 
 
 
 
 
-    
 
 
-
-
-
-  "eject": "react-scripts eject"
+"@testing-library/react": "^11.2.3",
   
 
 
 
 
 
-  },
+
+
   
 
 
 
 
 
-  "eslintConfig": {
+
+
+"@testing-library/user-event": "^12.6.2",
   
 
 
 
 
 
-    
 
 
-
-
-
-  "extends": [
   
 
 
 
 
 
-    
 
 
-
-
-
-    
-
-
-
-
-
-  "react-app",
+"bootstrap": "^4.6.0",
   
 
 
 
 
 
-    
 
 
-
-
-
-    
-
-
-
-
-
-  "react-app/jest"
   
 
 
 
 
 
-    
 
 
-
-
-
-  ]
+"react": "^17.0.1",
   
 
 
 
 
 
-  },
+
+
   
 
 
 
 
 
-  "browserslist": {
+
+
+"react-bootstrap": "^1.5.0",
   
 
 
 
 
 
-    
 
 
-
-
-
-  "production": [
   
 
 
 
 
 
-    
 
 
-
-
-
-    
-
-
-
-
-
-  ">0.2%",
+"react-dom": "^17.0.1",
   
 
 
 
 
 
-    
 
 
-
-
-
-    
-
-
-
-
-
-  "not dead",
   
 
 
 
 
 
-    
 
 
-
-
-
-    
-
-
-
-
-
-  "not op_mini all"
+"react-icons": "^4.1.0",
   
 
 
 
 
 
-    
 
 
-
-
-
-  ],
   
 
 
 
 
 
-    
 
 
-
-
-
-  "development": [
+"react-router-dom": "^5.2.0",
   
 
 
 
 
 
-    
 
 
-
-
-
-    
-
-
-
-
-
-  "last 1 chrome version",
   
 
 
 
 
 
-    
 
 
-
-
-
-    
-
-
-
-
-
-  "last 1 firefox version",
+"react-scripts": "^2.0.5",
   
 
 
 
 
 
-    
 
 
-
-
-
-    
-
-
-
-
-
-  "last 1 safari version"
   
 
 
 
 
 
-    
 
 
-
-
-
-  ]
+"web-vitals": "^0.2.4"
   
 
 
 
 
 
-  },
+
+
+},
   
 
 
 
 
 
-  "devDependencies": {
+
+
+"scripts": {
   
 
 
 
 
 
-    
 
 
-
-
-
-  "gh-pages": "^3.1.0"
   
 
 
 
 
 
-  }
+
+
+"start": "react-scripts start",
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+"build": "react-scripts build",
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+"test": "react-scripts test",
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+"eject": "react-scripts eject",
+
+  
+
+
+
+
+
+
+
+},
+  
+
+
+
+
+
+
+
+"eslintConfig": {
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+"extends": [
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+"react-app",
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+"react-app/jest"
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+]
+  
+
+
+
+
+
+
+
+},
+  
+
+
+
+
+
+
+
+"browserslist": {
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+"production": [
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+">0.2%",
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+"not dead",
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+"not op_mini all"
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+],
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+"development": [
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+"last 1 chrome version",
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+"last 1 firefox version",
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+"last 1 safari version"
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+]
+  
+
+
+
+
+
+
+
+},
+  
+
+
+
+
+
+
+
+"devDependencies": {
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+"gh-pages": "^3.1.0"
+  
+
+
+
+
+
+
+
+}
 }
