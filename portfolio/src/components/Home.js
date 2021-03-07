@@ -14,6 +14,7 @@ const Home = () => {
                     <div className='col-6'>
                     <div className='header__content'>
                     <div className='header__section'>
+                    
                     <ul className='header__ul'>
                             <li>
                             <a href='https://www.linkedin.com/in/mahmutsarcan/'
@@ -47,6 +48,7 @@ const Home = () => {
                             </li>
                             
                         </ul>
+                        
                         <h1>{state.title}</h1>
                         <p>{state.text}</p>
                         <div className='header__buttons'>

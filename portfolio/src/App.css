@@ -375,10 +375,10 @@ body {
     width:100%;
   }
 
-
-  .banner__img img {
+ 
+   .banner__img img {
     display: none;
-  }
+  } 
 
   .header__section h1 {
     font-size: 35px;
@@ -396,10 +396,13 @@ body {
 
    .header__ul  {
     display:grid;
-    grid-template-columns: 15% 15% 15%; 
-    grid-gap: 25px; 
+    grid-template-columns:11% 11% 11%; 
+    grid-gap: 20%; 
     margin-right:70px;
     row-gap: 25px;
+   
+   
+    
   }
     /* display:grid;
     grid-template-columns: auto auto auto; 
@@ -444,6 +447,11 @@ body {
   .header__ul > li {
     text-align: center;
     margin-left:auto;
+    
+    
+    
+
+  
   }
 
    .header__buttons .btn-smart {
